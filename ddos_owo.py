@@ -39,9 +39,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Usa esto: python ddos_owo.py <ip> <port> <time> <size>')
 
     parser.add_argument('ip', type=str, help='IP de la persona puto xd')
-    parser.add_argument('-p', '--puerto', type=int, default=None, help='Puerto.')
-    parser.add_argument('-t', '--tiempo', type=int, default=None, help='Tiempo.')
-    parser.add_argument('-s', '--paquetes', type=int, default=1024, help='Paquetes.')
+    parser.add_argument('-p', '--port', type=int, default=None, help='Puerto.')
+    parser.add_argument('-t', '--time', type=int, default=None, help='Tiempo.')
+    parser.add_argument('-s', '--size', type=int, default=1024, help='Paquetes.')
 
     args = parser.parse_args()
 
