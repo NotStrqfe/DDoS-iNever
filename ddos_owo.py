@@ -36,7 +36,7 @@ def attack(ip, port, time, size):
     print('Ataque Finalizado Perro.')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Usa esto: python strqfeddos.py <ip> <port> <time> <size>')
+    parser = argparse.ArgumentParser(description='Usa esto: python ddos_owo.py <ip> <port> <time> <size>')
 
     parser.add_argument('ip', type=str, help='IP de la persona puto xd')
     parser.add_argument('-p', '--puerto', type=int, default=None, help='Puerto.')
