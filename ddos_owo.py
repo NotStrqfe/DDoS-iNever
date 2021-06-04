@@ -1,7 +1,6 @@
 #Tool Creada Por iNever
 #Versión: v2
 
-
 from time import time as tt
 import argparse
 import socket
