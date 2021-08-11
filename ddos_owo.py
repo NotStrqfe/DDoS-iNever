@@ -1,4 +1,4 @@
-#Tool Creada Por iNever
+#Tool Creada Por $trqfe
 #Versión: v2
 
 from time import time as tt
